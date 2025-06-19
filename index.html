@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Головна сторінка</title>
+
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Підключення FontAwesome для використання текстових іконок -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+      <header>
+        <h2 class="MD">MD</h2>
+        <nav>
+          <ul class="pc-nav">
+                <li><a href="index.html">About me</a></li>
+                <li><a href="#skills">My skils</a></li>
+                <li><a href="skills.html">My projekts</a></li>
+                <li class="icon-li"><a href="telegram.org"><img class="icon" src="https://www.svgrepo.com/show/333610/telegram.svg" alt=""></a></li>
+                <li class="icon-li"><a href="youtube.com"><img class="icon" src="https://www.iconpacks.net/icons/1/free-youtube-icon-123-thumb.png" alt=""></a></li>
+                <li class="icon-li"><a href="instagram.com"><img class="icon" src="https://img.icons8.com/m_outlined/512/instagram-new.png" alt=""></a></li>
+            </ul>
+            <div onclick="toggleNav()" class="nav-button">
+                <div class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <ul class="phone-nav" id="phoneNav">
+                <li><a href="index.html">About me</a></li>
+                <li><a href="#skills">My skils</a></li>
+                <li><a href="skills.html">My projekts</a></li>
+                <li class="icon-li"><a href="telegram.org"><img class="icon" src="https://www.svgrepo.com/show/333610/telegram.svg" alt=""></a></li>
+                <li class="icon-li"><a href="youtube.com"><img class="icon" src="https://www.iconpacks.net/icons/1/free-youtube-icon-123-thumb.png" alt=""></a></li>
+                <li class="icon-li"><a href="instagram.com"><img class="icon" src="https://img.icons8.com/m_outlined/512/instagram-new.png" alt=""></a></li>
+            </ul>
+        </nav>
+      </header>
+      <div class="content">
+        <h1>Maria Dumanska</h1>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam odit, reprehenderit quis ipsam quisquam libero blanditiis maxime doloribus asperiores doloremque possimus quia corporis voluptatum, iusto at necessitatibus, sed nam nesciunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam recusandae, itaque expedita consectetur vero iusto, voluptate odio, labore, molestias incidunt fugiat voluptates? Voluptatibus cumque ad soluta vero blanditiis sed earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sequi voluptatibus consequuntur sit facere nobis a dignissimos et dolorum rem quam aliquam, accusamus odio quasi itaque recusandae impedit!</p>
+        <img class="avatar" src="images/avatar.jpg" alt="">
+        <div id="skills" class="skills">
+          <h1>Вміння</h1>
+          <div class="skill-list">
+            <div class="skill">
+              <p class="txt big">Java Script</p>
+              <p class="txt grey">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Iste voluptas magnam atque veniam fuga veritatis suscipit ea perspiciatis consequatur quis aperiam labore eligendi, unde consequuntur vitae perferendis maiores est alias!</p>
+              <p class="txt grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, hic quibusdam animi iste, nam eius vitae impedit eum eaque iusto mollitia accusantium! Dolorem repellat dicta cumque. Nobis blanditiis omnis eveniet?</p>
+              <p class="txt purple">Things i do:</p>
+              <p class="txt grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p class="txt purple">Libraries I use:</p>
+              <p class="txt grey">Telegram WebApp</p>
+              <p class="txt grey">Lottie</p>
+              <p class="txt grey">Html2canvas</p>
+              <p class="txt grey">Typed.js</p>
+            </div>
+            <div class="skill">
+              <p class="txt big">Python</p>
+              <p class="txt grey">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Iste voluptas magnam atque veniam fuga veritatis suscipit ea perspiciatis consequatur quis aperiam labore eligendi, unde consequuntur vitae perferendis maiores est alias!</p>
+              <p class="txt grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, hic quibusdam animi iste, nam eius vitae impedit eum eaque iusto mollitia accusantium! Dolorem repellat dicta cumque. Nobis blanditiis omnis eveniet?</p>
+              <p class="txt purple">Things i do:</p>
+              <p class="txt grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p class="txt purple">Libraries I use:</p>
+              <p class="txt grey">Fastapi</p>
+              <p class="txt grey">PyroTGFork</p>
+              <p class="txt grey">Asyncio</p>
+              <p class="txt grey">Request</p>
+            </div>
+            <div class="skill">
+              <p class="txt big">Node.js</p>
+              <p class="txt grey">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Iste voluptas magnam atque veniam fuga veritatis suscipit ea perspiciatis consequatur quis aperiam labore eligendi, unde consequuntur vitae perferendis maiores est alias!</p>
+              <p class="txt grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, hic quibusdam animi iste, nam eius vitae impedit eum eaque iusto mollitia accusantium! Dolorem repellat dicta cumque. Nobis blanditiis omnis eveniet?</p>
+              <p class="txt purple">Things i do:</p>
+              <p class="txt grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <p class="txt purple">Packages I use:</p>
+              <p class="txt grey">GramJS</p>
+              <p class="txt grey">FS</p>
+              <p class="txt grey">Canvas</p>
+              <p class="txt grey">Dotenv</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <footer>
+      <h1 class="txt">Maria Dumanska</h1>
+      <ul class="txt">
+        <li><a href="#">About me</a></li>
+        <li><a href="#skills">My skils</a></li>
+        <li><a href="#">My projekts</a></li>
+      </ul>
+      <ul class="txt">
+        <li class="icon-li"><a href="telegram.org"><img class="icon" src="https://www.svgrepo.com/show/333610/telegram.svg" alt=""></a></li>
+            <li class="icon-li"><a href="youtube.com"><img class="icon" src="https://www.iconpacks.net/icons/1/free-youtube-icon-123-thumb.png" alt=""></a></li>
+            <li class="icon-li"><a href="instagram.com"><img class="icon" src="https://img.icons8.com/m_outlined/512/instagram-new.png" alt=""></a></li>
+      </ul>
+      <p class="txt grey">© Created by Максим</p>
+      <p class="grey">All rights Reserved</p>
+    </footer>
+  </body>
+</html>

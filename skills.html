@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мої вміння</title>
+
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Підключення FontAwesome для використання текстових іконок -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+        <h2 class="MD">MD</h2>
+        <nav>
+            <ul class="pc-nav">
+                <li><a href="index.html">About me</a></li>
+                <li><a href="index.html#skills">My skils</a></li>
+                <li><a href="#">My projekts</a></li>
+                <li class="icon-li"><a href="telegram.org"><img class="icon" src="https://www.svgrepo.com/show/333610/telegram.svg" alt=""></a></li>
+                <li class="icon-li"><a href="youtube.com"><img class="icon" src="https://www.iconpacks.net/icons/1/free-youtube-icon-123-thumb.png" alt=""></a></li>
+                <li class="icon-li"><a href="instagram.com"><img class="icon" src="https://img.icons8.com/m_outlined/512/instagram-new.png" alt=""></a></li>
+            </ul>
+            <div onclick="toggleNav()" class="nav-button">
+                <div class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <ul class="phone-nav" id="phoneNav">
+                <li><a href="index.html">About me</a></li>
+                <li><a href="index.html#skills">My skils</a></li>
+                <li><a href="#">My projekts</a></li>
+                <li class="icon-li"><a href="telegram.org"><img class="icon" src="https://www.svgrepo.com/show/333610/telegram.svg" alt=""></a></li>
+                <li class="icon-li"><a href="youtube.com"><img class="icon" src="https://www.iconpacks.net/icons/1/free-youtube-icon-123-thumb.png" alt=""></a></li>
+                <li class="icon-li"><a href="instagram.com"><img class="icon" src="https://img.icons8.com/m_outlined/512/instagram-new.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="center">
+    <h1 class="projekt-label">Проєкти</h1>
+    <p class="projekt-label-2">Подивітся на проєкти якими я пишаюся:</p>
+    </div>
+    <div class="projekts">
+        <div class="projekt">
+            <img class="projekt-img" src="images/cat-app.png" alt="">
+            <div class="projekt-txt">
+                <h1 class="txt-h1">Huuber - досконалий паспорт вашого хвостика</h1>
+                <p class="grey">Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Non minus voluptate voluptates vero, quasi dolores fugiat asperiores neque molestiae vel porro perspiciatis facere voluptatem quos deserunt tempora corrupti possimus. A.</p>
+            </div>
+        </div>
+        <div class="projekt">
+            <img class="projekt-img laptop" src="images/laptop.png" alt="">
+            <div class="projekt-txt border-purple">
+                <h1 class="txt-h1 purple-color">Cкрипти для сегметування клієнтської бази</h1>
+                <p class="grey">Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Non minus voluptate voluptates vero, quasi dolores fugiat asperiores neque molestiae vel porro perspiciatis facere voluptatem quos deserunt tempora corrupti possimus. A.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+      <h1 class="txt">Maria Dumanska</h1>
+      <ul class="txt">
+        <li><a href="#">About me</a></li>
+        <li><a href="#skills">My skils</a></li>
+        <li><a href="#">My projekts</a></li>
+      </ul>
+      <ul class="txt">
+        <li class="icon-li"><a href="telegram.org"><img class="icon" src="https://www.svgrepo.com/show/333610/telegram.svg" alt=""></a></li>
+            <li class="icon-li"><a href="youtube.com"><img class="icon" src="https://www.iconpacks.net/icons/1/free-youtube-icon-123-thumb.png" alt=""></a></li>
+            <li class="icon-li"><a href="instagram.com"><img class="icon" src="https://img.icons8.com/m_outlined/512/instagram-new.png" alt=""></a></li>
+      </ul>
+      <p class="txt grey">© Created by Максим</p>
+      <p class="grey">All rights Reserved</p>
+    </footer>
+</body>
+</html>
