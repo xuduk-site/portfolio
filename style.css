@@ -297,8 +297,8 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: rgba(255, 255, 255, 0.07);
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	background: rgba(30, 30, 30, 0.2);
+    	box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
 	border-radius: 10px;
 	padding: 40px;
 	width: 50%;
@@ -331,6 +331,9 @@ nav {
 	display: inline;
 }
 
+.pointer {
+	cursor: pointer;
+}
 
 @media (max-width: 768px) {
 	.skill-list {
